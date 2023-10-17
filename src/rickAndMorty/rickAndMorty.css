@@ -1,0 +1,14 @@
+.rickmorty_wrap{
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.rickmortyItem{
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 10px ;
+    margin: 10px;
+    padding: 10px;
+}
