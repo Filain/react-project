@@ -1,13 +1,12 @@
 import React from 'react';
-import {Posts} from "./components/Posts/Posts";
+import {Rockets} from "./components/Rockets/Rockets";
 
 const App = () => {
     return (
         <div>
+<Rockets/>
 
-            <Posts/>
-            </div>
-
+        </div>
     );
 };
 
