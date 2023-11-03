@@ -5,7 +5,9 @@ import {useChapter} from "../../../hooks/useChapter";
 const Episode = ({episode}) => {
     const {id, name, episode: chapter, characters} = episode;
     const navigate = useNavigate();
-    const {setName} = useChapter()
+
+    const {setName} = useChapter();
+
     const toCaracters = () => {
         const ids = characters.map(character => character.split('/').splice(-1)[0])
         setName(name)
